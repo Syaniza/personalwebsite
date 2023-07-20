@@ -1,0 +1,70 @@
+<html>
+<head>
+
+    <title>SCHANIEZA'S WEBSITE</title>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+
+<font size= "20" face="elephant" color="purple"><marquee>Welcome to Syaniza's Website</marquee></font>
+<body align="center">
+<body onload="startTime()">
+    <div id="txt"></div>
+</body>
+
+<br>
+<br>
+<style>
+    body {
+      background-image: url("images/wallpaperpantai.JPG");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: calc(200vh - 1000px)
+</style> 
+
+<div class="logo">
+<img src="images/logoUiTM.png">
+</div>
+
+<script>
+function startTime() {
+  const today = new Date();
+  let h = today.getHours();
+  let m = today.getMinutes();
+  let s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+  setTimeout(startTime, 1000);
+}
+
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
+</script>
+
+</body>
+
+<div class="header">
+<a href="index.html">Home</a>
+<a href="biodata.html">My Biodata</a>
+<a href="education.html">My Education</a>
+<a href="experience.html">My Experience</a>
+<a href="gallery.html">My Media Gallery</a>
+<a href="contact.html">Contact Me</a>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+<h1 style="font-family: Segoe script; font-size: 50px">Hey There!</h1>
+
+<p style="text-align:left; font-size: 30px; font-family: Sitka Display;">Hi! I'm schanieza.</p>
+<p style="text-align:justify;" > I know things have been difficult lately and no one has told you that <br>you are capable of making through it. <br>But, no matter what has happened, your struggles will not go in vain. <br>One day you will look back and see along the way you were becoming stranger, <br>growing into the person you were meant to be.</p> 
+
+</body>
+</html>
