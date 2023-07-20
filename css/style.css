@@ -1,0 +1,81 @@
+h1
+{
+    color:rgb(30, 6, 33);
+}
+
+a
+{
+    text-decoration:none;
+    font-family:impact;
+    padding-right: 50px;
+}
+
+a:hover 
+{
+    color:rgb(119, 18, 119)
+}
+
+body 
+{
+    background-color:rgb(179, 171, 220)
+}
+.logo 
+{
+    width: 20%;
+    height: 50px;
+    background-color: azure;
+    float: left; 
+
+}
+
+.header 
+{
+    width: 80%;
+    height: 50px;
+    background-color:rgb(144, 123, 226);
+    float: left;
+}
+
+table, tr, td, th
+{
+    border: 1px solid rgb(128, 0, 70);
+    border-collapse: collapse;
+}
+
+table{
+    width: 600px;
+}
+
+td
+{
+    padding: 10px;
+}
+
+tr
+{
+    background-color:antiquewhite;
+}
+
+th
+{
+    padding: 5px;
+    background-color: black;
+    color:azure;
+}
+
+tr:nth-child(even)
+{
+    background-color: rgb(242, 92, 157);
+}
+
+tr:hover
+{
+    background-color: rgb(89, 164, 244);
+}
+
+p
+{
+    font-family: Verdana;
+}
+
+
